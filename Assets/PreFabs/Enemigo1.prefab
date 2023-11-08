@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 6274120247417342528}
   - component: {fileID: 5551348378923992663}
   - component: {fileID: 5911188929660117291}
+  - component: {fileID: 4007584986378788063}
+  - component: {fileID: 9195125274687777270}
   m_Layer: 0
   m_Name: Enemigo1
   m_TagString: Enemigo
@@ -182,3 +184,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4007584986378788063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5574929491133629754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba6b8c3292276164596b33583aee5d46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaActual: 0
+  vidaTotal: 3
+--- !u!114 &9195125274687777270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5574929491133629754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48cfc9847a386b94aad3c06f04a3e567, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dano: 1
